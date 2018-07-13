@@ -1,0 +1,27 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity rand_num is
+Port ( clock : in STD_LOGIC;
+       Q : out STD_LOGIC_VECTOR (7 downto 0));
+end rand_num;
+
+architecture Behavioral of rand_num is
+signal Qt: STD_LOGIC_VECTOR(7 downto 0) := "00000001";
+begin
+
+PROCESS(clock)
+variable tmp : STD_LOGIC := '0';
+BEGIN
+
+IF rising_edge(clock) THEN
+	tmp := Qt(4) XOR Qt(3) XOR Qt(2) XOR Qt(0);
+	Qt <= tmp & Qt(7 downto 1);
+	IF(Qt(7) = '0') then
+  		Q <= Qt;
+	end if;
+end if;
+END PROCESS;
+end architecture Behavioral;
+
+-- change the entity name 

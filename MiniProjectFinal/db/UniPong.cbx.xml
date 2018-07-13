@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="UniPong">
+		<CBX_INST_ENTRY INSTANCE_NAME="|UniPong|clk_div:inst2|altpll:altpll_component" CBX_FILE_NAME="clk_div_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|UniPong|game:inst8|lpm_mult:Mult0" CBX_FILE_NAME="mult_k4t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|UniPong|game:inst8|lpm_mult:Mult4" CBX_FILE_NAME="mult_c4t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|UniPong|game:inst8|char_rom:char2|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_kt91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|UniPong|game:inst8|char_rom:char|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_kt91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|UniPong|game:inst8|lpm_mult:Mult1" CBX_FILE_NAME="mult_c4t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|UniPong|game:inst8|lpm_mult:Mult3" CBX_FILE_NAME="mult_k4t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|UniPong|game:inst8|lpm_mult:Mult7" CBX_FILE_NAME="mult_c4t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|UniPong|game:inst8|lpm_mult:Mult6" CBX_FILE_NAME="mult_k4t.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
